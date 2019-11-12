@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>The Animalist</title>
+</head>
+
+<body>
+    <header id="CABECERA_LOGO">
+      <img src="https://raw.githubusercontent.com/davidstdissenyweb/davidstdissenyweb.github.io/master/cropped-prueba-nueva.png">
+        <nav id="MENU_DESPLEGABLE">
+            <ul>
+                <li>Home</li>
+                <li>Noticias</li>
+                <li>Sígueme</li>
+                <li>Galería de imágenes</li>
+                <li id="musica">
+                    <ul>
+                        <li>Álbums</li>
+                        <li>Ep´s</li>
+                        <li>Remixes</li>
+                        <li>Videoclips</li>
+                    </ul>
+                </li>
+                <li>Biografía y discografía</li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="NOVEDADES"></section>
+        <nav id="ACCESOS_DIRECTOS">
+            <article id="PLAYLIST"></article>
+            <article id="SESIONES"></article>
+            <article id="MASHUPS"></article>
+            <article id="clips_musicales"></article>
+        </nav>
+              <section id="CONTACTO">
+            <section id="BARRA_FOLLOW_ME"></section>
+        </section>
+        <aside><iframe src="http://bdigital.uncu.edu.ar/objetos_digitales/1378/antonhuellas1.pdf" width="100%" height="200"></iframe></aside>
+        <p>Haz click<a href="http://bdigital.uncu.edu.ar/objetos_digitales/1378/antonhuellas1.pdf"><i> <strong>aquí</strong></i></a> para descargar este PDF.</p>
+    </main>
+    <footer></footer>
+</body>
+
+</html>

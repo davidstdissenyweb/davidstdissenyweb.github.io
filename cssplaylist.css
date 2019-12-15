@@ -1,0 +1,186 @@
+/*FONT FACE*/
+@font-face{
+			font-family: 'Ubuntu', sans-serif;
+			src: url("https://github.com/davidstdissenyweb/davidstdissenyweb.github.io/blob/master/Assets/fonts/Ubuntu-Regular.ttf") format(ttf);
+
+		}	
+
+body {
+	background-color: black;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+/*menu*/
+.menu {
+				margin:auto;
+				width:100%;
+				font-family:Arial, Helvetica, sans-serif;
+				height: auto;
+
+			}
+			
+			ul, ol {
+				list-style:none;
+			}
+			.nav {
+				width:500px; 
+				margin:0 auto; 
+			}
+			
+			.nav > li {
+				float:left;
+			}
+			
+			.nav li a {
+				background-color:#000;
+				color:#fff;
+				text-decoration:none;
+				padding:10px 12px;
+				display:block;
+			}
+			
+			.nav li a:hover {
+				background-color:#434343;
+			}
+			
+			.nav li ul {
+				display:none;
+				position:absolute;
+				min-width:140px;
+			}
+			
+			.nav li:hover > ul {
+				display:block;
+			}
+			
+			.nav li ul li {
+				position:relative;
+			}
+			
+			.nav li ul li ul {
+				right:-140px;
+				top:0px;
+			}
+			
+
+		
+
+/*reproductor*/		
+@media (min-width:768px) {
+    .reproductor {position: relative;
+    	   float: left;
+    	   width: 50vw;
+
+    	   
+    	   
+    	   
+    }
+}
+
+
+
+
+
+
+/*COLUMNAS 2X2*/
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  margin-top: 30px;
+}
+
+/*media columnas 2x2 pasan al lado derecho del slider a partir de 768px*/
+
+@media (min-width:768px) {
+    .slider {position: relative;
+    	   float: left;
+    	   width: 50vw;
+
+    	   
+    	   
+    	   
+    }
+}
+
+
+/*cabecera desaparece en tamaño table-movil*/
+
+@media (max-width:768px) {
+    .cabecera {display: none;
+    	  
+    	   
+    	   
+    }
+} 
+
+/* cabecera aparece en tamaño tablet-movil*/
+@media (max-width:768px) {
+    .cabecera_tablet {visibility:visible;
+    	   
+    	   
+    	   
+    }
+} 
+
+@media (min-width:768px) {
+    .cabecera_tablet {display: none;
+    	   
+    	   
+    	   
+    }
+} 
+
+/* backgroun image cambia en a partir de 768px para tablets y moviles*/
+
+@media (max-width:768px) {
+    body {background-image: url(https://raw.githubusercontent.com/davidstdissenyweb/davidstdissenyweb.github.io/master/Assets/img/content/background%20modo%20tablet%20768x1024%20oscura.png);
+    	 background-attachment: fixed;  
+    	   
+    	   
+    }
+}
+/* backgroun image cambia en a partir de 768px para modo escritorio. POR HACER*/
+
+/* footer */
+
+.footer {
+	background-color:#677ef5;
+	color: black;
+	width: auto;
+	height: 200px;
+	border: 2px solid black;
+	padding-top: 10px;
+	padding-left: 10px;  
+}
+
+/*boton subir*/
+
+.boton_subir {
+	width: 50px; height: 50px;
+	
+	
+
+}
+
+/*iconos redes sociales*/
+.iconos_rs {
+	width: 50px; height: 50px;
+	float: right;
+	margin-right: 10px;
+	
+	
+}
+/*sección contacto*/
+.contacto {
+	margin-bottom: 15px;
+	text-align: center;
+	background-color: #3b5998;
+	color: white;
+
+}
+
